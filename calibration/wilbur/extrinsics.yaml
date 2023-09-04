@@ -1,0 +1,92 @@
+sensor_plate_joint:
+  frame_id: base_link
+  child_frame_id: sensor_plate_link
+  x: 0.63
+  y: 0.432
+  z: 0.944
+  roll: 0
+  pitch: -0
+  yaw: 0
+ouster_center_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: ouster_center_link
+  x: -0.508
+  y: -0.4572
+  z: 0.298
+  roll: 0.0
+  pitch: 0.0
+  yaw: 0.0
+# calibrated 2023-04-24
+ouster_front_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: ouster_front_link
+  pitch: 0.36439
+  roll: -0.02019
+  y: -0.326
+  x: 0.05
+  yaw: -0.008356
+  z: 0.078
+imu_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: imu_link
+  x: -0.5758
+  y: -0.1524
+  z: 0.0135
+  roll: -0.005556
+  pitch: -0.021183
+  yaw: -3.120610
+stereo_left_joint:
+  child_frame_id: wilbur/stereo_left_link
+  frame_id: wilbur/sensor_plate_link
+  y: 0.0193 # corrected based on right sensor
+  pitch: -0.005559586035104693
+  roll: 0.0004926383242970126
+  x: 0.01869175488738828
+  yaw: 0.04223758430352057
+  z: 0.28672623687109766
+stereo_right_joint:
+  child_frame_id: stereo_right_link
+  frame_id: sensor_plate_link
+  pitch: -0.005559586035104693
+  roll: 0.0004926383242970126
+  x: 0.01869175488738828
+  y: -0.5607127105911416
+  yaw: 0.04223758430352057
+  z: 0.28672623687109766
+forward_joint:
+  child_frame_id: forward_link
+  frame_id: sensor_plate_link
+  pitch: -0.017772556348519708
+  roll: -0.012632526706323158
+  x: 0.04618892242115458
+  y: -0.27682083560254395
+  yaw: 0.03412393968954324
+  z: 0.2522710592462636
+geofog_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: geofog_link
+  pitch: 0
+  roll: 0
+  x: -0.6604
+  y: -0.0508
+  yaw: 0
+  z: 0
+geofog_gps_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: geofog_gps_link
+  pitch: 0
+  roll: 0
+  x: -1.175
+  y: -0.280
+  yaw: 0
+  z: 0.360
+
+tag_bundle_joint:
+  frame_id: tag_bundle
+  child_frame_id: sensor_plat_link
+  pitch: 0
+  roll: 0
+  x: -0.928
+  y: -1.071
+  yaw: 0
+  z: -0.153

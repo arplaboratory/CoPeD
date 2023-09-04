@@ -1,0 +1,36 @@
+sensor_plate_joint:
+  frame_id: base_link
+  child_frame_id: sensor_plate_link
+  x: 0.17145
+  y: 0.212725
+  z: 0.4826
+  roll: 0
+  pitch: -0
+  yaw: 0
+ouster_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: ouster_link
+  pitch: -0.0
+  roll: 0.0
+  x: 0.12
+  y: 0.0
+  yaw: 0.0
+  z: 0.315
+imu_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: imu_link
+  x: 0
+  z: 0
+  y: 0
+  roll: 0.000285
+  pitch: -0.005850
+  yaw: 1.565677
+forward_joint:
+  frame_id: forward_link
+  child_frame_id: sensor_plate_link
+  pitch: 0.04920780931698881
+  roll: 0.06203267899818493
+  x: 0.3215626344192789
+  y: 0.0378924642740536
+  yaw: 0.01083704789190801
+  z: 0.3493254213757592

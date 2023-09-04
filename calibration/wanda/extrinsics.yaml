@@ -1,0 +1,81 @@
+sensor_plate_joint:
+  frame_id: base_link
+  child_frame_id: sensor_plate_link
+  x: 0.64
+  y: 0.342
+  z: 0.973
+  roll: 0
+  pitch: -0
+  yaw: 0
+ouster_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: ouster_link
+  x: -0.5842
+  y: -0.2921
+  z: 0.49
+  roll: 0.0
+  pitch: 0.0
+  yaw: 0.0
+imu_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: imu_link
+  x: -0.70
+  y:  -0.27682083560254395
+  z: 0.0135
+  roll: -0.00295
+  pitch: 0.01859
+  yaw: 0.06012
+stereo_left_joint:
+  child_frame: stereo_left_link
+  frame_id: sensor_plate_link
+  pitch: 0.03712138281643653
+  roll: 0.006658725873861527
+  x: 0.032033639281698556
+  y: 0.02156440374226426
+  yaw: 0.00015744556636347446
+  z: 0.204189942
+stereo_right_joint:
+  child_frame_id: stereo_right_link
+  frame_id: sensor_plate_link
+  pitch: 0.026068722728594874
+  roll: 0.00237263914068792
+  x: 0.03764566992000218
+  y: -0.5860953968702344
+  yaw: -0.017044007406942226
+  z: 0.207864234
+forward_joint:
+  child_frame_id: forward_link
+  frame_id: sensor_plate_link
+  pitch: -0.04022061555286577
+  roll: -0.00036780205620661887
+  x: 0.17108545331192115
+  y: -0.29491712960025335
+  yaw: 0.00562076382854836
+  z: 0.27720817429159399
+geofog_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: geofog_link
+  pitch: 0
+  roll: 0
+  x: -0.6604
+  y: -0.0508
+  yaw: 0
+  z: 0
+geofog_gps_joint:
+  frame_id: sensor_plate_link
+  child_frame_id: geofog_gps_link
+  pitch: 0
+  roll: 0
+  x: -1.175
+  y: -0.280
+  yaw: 0
+  z: 0.360
+tag_bundle_joint:
+  frame_id: tag_bundle
+  child_frame_id: sensor_plat_link
+  pitch: 0
+  roll: 0
+  x: -0.944
+  y: -0.982
+  yaw: 0
+  z: -0.175
