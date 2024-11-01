@@ -1,7 +1,7 @@
 # CoPeD - Advancing Multi-Robot Collaborative Perception: A Comprehensive Dataset in Real-World Environments
 
 ## Data Link
-[Google Drive Link to Dataset](https://t.ly/zy2vC) 
+[Google Drive Link to Dataset](https://drive.google.com/drive/folders/1ldGY2qRKa0tmDDnYDLmaHRV1wBKn7NAM?usp=share_link) 
 
 ## Description
 CoPeD is a multi-robot collaborative perception dataset that contains indoor/outdoor sequence collected by multiple air/ground robots. This dataset features a variety of sensors including stereo RGB cameras, infrared cameras, IMUs, GPS, and LiDARs. The dataset is collected in real-world environments with various lighting conditions and weather conditions. 
